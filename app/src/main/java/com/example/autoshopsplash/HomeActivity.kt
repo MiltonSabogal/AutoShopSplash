@@ -18,7 +18,7 @@ class HomeActivity: AppCompatActivity() {
         Toast.makeText(this,"$email BIENVENIDO A AUTOSHOP ", Toast.LENGTH_LONG).show()
 
         val vehiculos_F = VehiculosFragment()
-        val agenda_F = AgendaFragment()
+        val agenda_F = AgendamientoFragment()
         val vendedor_F = VendedorFragment()
 
         val bundle = Bundle()

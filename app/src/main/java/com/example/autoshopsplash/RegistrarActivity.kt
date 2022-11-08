@@ -2,6 +2,7 @@ package com.example.autoshopsplash
 
 import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.Toast
@@ -60,6 +61,8 @@ class RegistrarActivity : Activity() {
         }else{
             editar.commit()
             Toast.makeText(this, "Registro exitoso", Toast.LENGTH_LONG).show()
+            startActivity(Intent(this, LoginActivity::class.java))
+
         }
     }
 }
